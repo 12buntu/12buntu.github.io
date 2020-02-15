@@ -14,7 +14,7 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Tutorials
+  title: Tutorials by 12buntu
   tagline: Java. C++. Linux.
   date_format: "%b %-d, %Y"
   style: black

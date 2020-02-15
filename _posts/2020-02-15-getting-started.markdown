@@ -33,7 +33,7 @@ void setup(){
   //Code to be run once after start is pressed
 }
 
-void loop(){
+void draw(){
   //Code to be run multiple times
 }
 ```
@@ -51,7 +51,8 @@ void setup(){
 //nothing to run in setup for this sketch
 }
 
-void loop(){
+void draw(){
+    //print what variable was set to, in this case 10, reapeatedly
     println(variable);
 }
 ```
@@ -59,8 +60,8 @@ void loop(){
 There are a few things that are important to notice in the above sketch:
 
 * There is a ';' after commands
-   * This is because in Java, we could write all code on one line, e.g `void loop(){println(variable);}` So the computer doesn't really "see" when we end a line, it's just so we can read it more easily, the computer only sees the end of a line when we type ';'s
-* There is no ';' after `void loop()` or `void setup()`
+   * This is because in Java, we could write all code on one line, e.g `void draw(){println(variable);}` So the computer doesn't really "see" when we end a line, it's just so we can read it more easily, the computer only sees the end of a line when we type ';'s
+* There is no ';' after `void draw()` or `void setup()`
     * This is because they have '{'s after them. These aren't commands, but sections of code, so instead of a ';' following it, the '{}'s contain the code within it.
 * The `int variable = 10;` outside of the methods
     * This 'declares' the variables, all it does is let the computer know what variables are being used later in the code
@@ -81,10 +82,11 @@ So lets look at an example (we will also work with real graphics, not just the c
 
 ```
 void setup(){
-
+  size(500, 500); //set the size of the graphics window to 500 * 500
 }
 
-void loop(){
-
+void draw(){	
+  //draw a rectangle at the coordinates (250, 250), with a width and height of 100
+  rect(250, 250, 100, 100);  
 }
 ```
