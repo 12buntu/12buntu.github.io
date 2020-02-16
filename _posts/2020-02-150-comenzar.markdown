@@ -3,13 +3,13 @@ layout: post
 title:  "Comenzar con Processing"
 description: A tutorial to download Processing.
 date:   2020-02-15 16:30:00 +0530
-categories: English Processing
+categories: Español Processing
 exerpt_seperator: <!--more-->
 ---
 
-In this post I will detail how to download Processing to Windows and Linux machines, as well as some programming basics and activities.
+En este publicación, voy a explicar cómo descargar Processing en Windows y Linux, y conceptos básicos y actividades tambien.
 <!--more-->
-For anybody reading this hoping to take part in an FTC competition, I would reccomend that you use the FTC Blocks software, because it is much more intuitive and has less of a learning curve, but I still encourage you to also continue working to learn programming basics, as it will help you understand the Blocks software and later create programs in Java. [Here](https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources) are some resources to help set up Blocks, or Onbot, both of which I know almost nothing about.
+Para cualquier que lea esto que espera competir en una competencia de FTC, recomiendo que uses FTC Blocks, porque es mucho mas fácil, pero todavía recomiendo que sigas aprender programarto also continue working to learn programming basics, as it will help you understand the Blocks software and later create programs in Java. [Here](https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources) are some resources to help set up Blocks, or Onbot, both of which I know almost nothing about.
 ---
 
 # Downloading Processing
