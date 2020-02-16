@@ -12,15 +12,15 @@ En este publicación, voy a explicar cómo descargar Processing en Windows y Lin
 Para cualquier que lea esto que espera competir en una competencia de FTC, recomiendo que uses FTC Blocks, porque es mucho mas fácil, pero todavía recomiendo que sigas aprender básicos de programar, porque te ayudaría entender Blocks y hacer programas de Java cuando estás listo. [Aquí](https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources) están algos paginas para ayudarte con Blocks o Onbot, no sé mucho sobre esas programas.
 ---
 
-# Downloading Processing
+# Descargar Processing
 
-Processing es un IDE y biblioteca de gráficos de Java, making it easy to learn Java without having to worry about complex configuration. It can be downloaded [here](https://processing.org/download/) with simple installation instructions. If you are one of the students in Lebanon, you can contact us if you are unable to install it.
+Processing es un IDE y biblioteca de gráficos de Java. *making it easy to learn Java without having to worry about complex configuration*. Se lo puede descargar [aquí](https://processing.org/download/) con instrucciones de instalación simples. 
 
 ---
 
-# Basics
+# Básicos
 
-Here we will discuss some of the very basic programming principles. We will work with integers, and learn about if/else statements.
+Aquí vamos a dicutir some of the very basic programming principles. We will work with integers, and learn about if/else statements.
 
 ---
 
