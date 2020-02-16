@@ -5,6 +5,7 @@ description: El tutorial primero de Processing.
 date:   2020-02-15 16:30:00 +0530
 lang: es
 number: 1
+permalink: /:number/:lang/
 exerpt_seperator: <!--more-->
 ---
 
