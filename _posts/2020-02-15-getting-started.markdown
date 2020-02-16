@@ -99,7 +99,7 @@ void draw(){
 ```
 
 In setup we use the  `size` function, which sets the size of the graphics window.
-In draw, we use an if statement. If the condition between the ()s is true, then it runs the code between the {}s, if it is not true, it moves onto the next section of code, between the {}s after "else". Try replacing the x and y coordinates of the rectangle with `mouseX()` and `mouseY()` and see what happens.
+In draw, we use an if statement. If the condition between the ()s is true, then it runs the code between the {}s, if it is not true, it moves onto the next section of code, between the {}s after "else". Try replacing the x and y coordinates of the rectangle with `mouseX` and `mouseY` and see what happens.
 
 ---
 
