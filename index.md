@@ -1,4 +1,5 @@
 ---
 layout: home
-permalink: /en/
+lang: en
+number: 0
 ---

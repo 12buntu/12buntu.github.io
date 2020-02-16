@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: post-linked
 title:  "Getting Started with Processing"
 description: A tutorial to download Processing.
 date:   2020-02-15 16:30:00 +0530
 categories: English Processing
+lang: en
+number: 1
 exerpt_seperator: <!--more-->
 ---
 

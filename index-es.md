@@ -1,6 +1,5 @@
 ---
 layout: casa
-permalink: /es/
+lang: es
+number: 0
 ---
-
-# HELLO WORLD!¡!
