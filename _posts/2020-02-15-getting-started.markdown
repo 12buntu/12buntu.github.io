@@ -20,7 +20,7 @@ Processing is an IDE and graphics library for Java, making it easy to learn Java
 
 # Basics
 
-Here we will discuss some of the very basic programming principles. We will work with integers, and learn about if statements, while loops, for loops, and create simple shapes.
+Here we will discuss some of the very basic programming principles. We will work with integers, and learn about if/else statements.
 
 ---
 
@@ -28,7 +28,7 @@ Here we will discuss some of the very basic programming principles. We will work
 
 This is the basic format of code in processing
 
-```
+```java
 void setup(){
   //Code to be run once after start is pressed
 }
@@ -43,7 +43,7 @@ The above code has comments (written after //) to explain what each section does
 Let's look at a quick sketch, and go over a few more things 
 
 
-```
+```java
 //Declare variables before any methods
 int variable = 10;
 
@@ -64,13 +64,13 @@ There are a few things that are important to notice in the above sketch:
 * There is no ';' after `void draw()` or `void setup()`
     * This is because they have '{'s after them. These aren't commands, but sections of code, so instead of a ';' following it, the '{}'s contain the code within it.
 * The `int variable = 10;` outside of the methods
-    * This 'declares' the variables, all it does is let the computer know what variables are being used later in the code
+    * This 'declares' the variables, all it does is let the computer know what variables are being used later in the code. It begins with 'int' because the variable is an integer.
 
 ## If/Else statements
 
 If you are familiar with any other programming language, this should be very easy for you, the basic setup of if and else statements is:
 
-```
+```java
 
 if(//condition){
     //run this code
@@ -80,13 +80,28 @@ if(//condition){
 
 So lets look at an example (we will also work with real graphics, not just the console):
 
-```
+```java
 void setup(){
   size(500, 500); //set the size of the graphics window to 500 * 500
 }
 
-void draw(){	
-  //draw a rectangle at the coordinates (250, 250), with a width and height of 100
-  rect(250, 250, 100, 100);  
+void draw(){  
+  if(mousePressed){ //if the mouse is pressed...
+    background(0);
+    //...draw a rectangle at the coordinates (250, 250), with a width and height of 100-
+    rect(250, 250, 100, 100);  
+  }
+  else{ //if the mouse is not pressed...
+    //...draw the background to cover up the previous rectangle
+    background(0);
+  }
 }
 ```
+
+In setup we use the  `size` function, which sets the size of the graphics window.
+In draw, we use an if statement. If the condition between the ()s is true, then it runs the code between the {}s, if it is not true, it moves onto the next section of code, between the {}s after "else". Try replacing the x and y coordinates of the rectangle with `mouseX()` and `mouseY()` and see what happens.
+
+---
+
+I encourage you to try changing variables and experimenting with all of these examples, it is hard to learn if you do not experiment yourself.
+That is all for this post, I hope that this was helpful, and in the next post I will talk about slightly more complex concepts, mathematical operators, and else if statments.
