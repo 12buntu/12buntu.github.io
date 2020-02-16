@@ -20,7 +20,7 @@ Processing es un IDE y biblioteca de gráficos de Java. *making it easy to learn
 
 # Básicos
 
-Aquí vamos a dicutir some of the very basic programming principles. We will work with integers, and learn about if/else statements.
+Aquí vamos a dicutir algos de los principios básicos de programar. Vamos a usar enteros, y aprender sobre declaraciones de if/else.
 
 ---
 
