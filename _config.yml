@@ -7,12 +7,13 @@ description: > # this means to ignore newlines until "show_exerpts:"
 show_excerpts: true # set to true to show excerpts on the homepage
 baseurl: /
 
+
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
   sass_dir: _sass
 
-permalink: /posts/:title/
+permalink: /:categories/:title/
 texture:
   title: Tutorials by 12buntu
   tagline: Java. C++. Linux.
