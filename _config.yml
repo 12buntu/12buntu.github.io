@@ -4,16 +4,10 @@ email: kylemhollars@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   This is a tutorial page, primarily made for students in Lebanon but available for anybody who wishes to use it
   Created in assosciation with FIRST Team 5881 Tungsteel
-show_excerpts: true # set to true to show excerpts on the homepage
-baseurl: /
-tag: 
+		<a href="/"><li>English</li></a>
 
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-sass:
-  sass_dir: _sass
-
-permalink: /:categories/:title/
+permalink: /:categories/:title
+		<a href="/"><li>English</li></a>/
 texture:
   title: Tutorials by 12buntu
   tagline: Java. C++. Linux. FIRST.

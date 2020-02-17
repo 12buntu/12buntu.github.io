@@ -3,8 +3,6 @@ layout: post
 title:  "Comenzar con Processing"
 description: El tutorial primero de Processing.
 date:   2020-02-15
-lang: es
-number: 1
 exerpt_seperator: <!--more-->
 ---
 
