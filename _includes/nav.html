@@ -3,14 +3,13 @@
 
 	<div class="navbar">
 		<ul>
-			<a href="{{ site.baseurl | append: "/english" | append: page.date }}"><li>English</li></a>
-			<a href=""{{ site.baseurl | append: "/español" | append: page.date }}""><li>Spanish</li></a>
+			<a href={{ site.baseurl | append: "/español" | append: page.year | append: page.month | append: page.day }}"><li>English</li></a>
+			<a href="{{ site.baseurl | append: "/español" | append: page.year | append: page.month | append: page.day }}"><li>Spanish</li></a>
 		</ul>
 	</div>
 	{%- endif -%}
 	{% else %}
-    	<a href="{{ site.baseurl | append: page.handle }}">EN</a>
-		<a href="{{ site.baseurl | append: "/english" }}"><li>English</li></a>
-		<a href=""{{ site.baseurl | append: "/english" }}""><li>Spanish</li></a>
+		<a href="{{ site.baseurl | append: "" }}"><li>English</li></a>
+		<a href=""{{ site.baseurl | append: "/español" }}""><li>Spanish</li></a>
 	{% endif %}
 {%- endif -%}
