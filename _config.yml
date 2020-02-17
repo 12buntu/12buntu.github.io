@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Created in assosciation with FIRST Team 5881 Tungsteel
 		<a href="/"><li>English</li></a>
 
-permalink: /:categories/:title
+permalink: /:categories/:title/
 		<a href="/"><li>English</li></a>/
 texture:
   title: Tutorials by 12buntu
