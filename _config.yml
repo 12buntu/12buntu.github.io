@@ -6,8 +6,12 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Created in assosciation with FIRST Team 5881 Tungsteel
 		<a href="/"><li>English</li></a>
 
+<<<<<<< HEAD
 permalink: /:categories/:title/
 
+=======
+permalink: /:categories/:year/:month/:day/
+>>>>>>> parent of 6a49bea... set from date format to title
 texture:
   title: Tutorials by 12buntu
   tagline: Java. C++. Linux. FIRST.
