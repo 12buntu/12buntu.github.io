@@ -1,8 +1,16 @@
 {%- if site.texture.showNav -%}
-<div class="navbar">
-	<ul>
-		<a href="site.baseurl | append: "/en" | append: page.handle"><li>English</li></a>
-		<a href="#"><li>Spanish</li></a>
-	</ul>
-</div>
+	{% if page.name contains "index" %}
+
+	<div class="navbar">
+		<ul>
+			<a href="{{ site.baseurl | append: "/english" | append: page.date }}"><li>English</li></a>
+			<a href=""{{ site.baseurl | append: "/español" | append: page.date }}""><li>Spanish</li></a>
+		</ul>
+	</div>
+	{%- endif -%}
+	{% else %}
+    	<a href="{{ site.baseurl | append: page.handle }}">EN</a>
+		<a href="{{ site.baseurl | append: "/english" }}"><li>English</li></a>
+		<a href=""{{ site.baseurl | append: "/english" }}""><li>Spanish</li></a>
+	{% endif %}
 {%- endif -%}
