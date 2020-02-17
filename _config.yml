@@ -16,7 +16,7 @@ sass:
 permalink: /:categories/:year/:month/:day/
 texture:
   title: Tutorials by 12buntu
-  tagline: Java. C++. Linux.
+  tagline: Java. C++. Linux. FIRST.
   date_format: "%b %-d, %Y"
   style: black
   showNav: true
