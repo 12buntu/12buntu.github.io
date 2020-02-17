@@ -12,7 +12,7 @@ baseurl: /
 sass:
   sass_dir: _sass
 
-permalink: /posts/:title/
+permalink: /posts/:post.lang/
 texture:
   title: Tutorials by 12buntu
   tagline: Java. C++. Linux.
