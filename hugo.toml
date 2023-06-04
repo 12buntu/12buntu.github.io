@@ -1,3 +1,4 @@
 baseURL = 'http://12buntu.github.io/'
 languageCode = 'en-us'
 title = '12buntu'
+theme = '12buntu'
