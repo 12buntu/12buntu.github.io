@@ -1,21 +1,27 @@
 body {  
-    background-color: #fcfcfc;  
-    color: #333;  
+    background-color: var(--bg-color);
+    color: var(--text-color);  
     font-size: 125%;  
     line-height: 1.5;  
     margin: 0 auto;  
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-family: "Fira Mono" 
   }  
   .content {  
     margin-bottom: 2rem;  
   }  
+  .highlight{
+    display: inline-block;
+    padding: .25em 0;
+    background: #F28500;
+    color: #ffffff;
+}
     
  .navbar{  
    display: flex;  
    align-items: center;  
    justify-content: space-between;  
    height: 25px;  
-   background: gainsboro;  
+   background: bg.;  
    padding: 10px;  
  }  
  .navbar__right{  
