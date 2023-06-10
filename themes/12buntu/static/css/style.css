@@ -12,7 +12,7 @@ body {
     font-family: "Fira Mono";
 }
 main{
-  max-width: 60%;
+  max-width: 80ch;
   margin: 0 auto;
 } 
     
