@@ -3,4 +3,4 @@ languageCode = 'en-us'
 title = "12buntu"
 theme = '12buntu'
 [Params]
-googlefonts = "https://fonts.googleapis.com/css?family=Fira+Mono|Noto+Sans"
+googlefonts = "https://fonts.googleapis.com/css?family=Fira+Mono|Noto+Sans|Fira+Code"

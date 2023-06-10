@@ -15,18 +15,19 @@
     }
     figcaption{
         display:block;
+        font-family: "Fira Code";
         font-size: small;
         text-align: center;
     }
-    .image-box {
+    .imagebox {
         position: relative;
         color: transparent;
         vertical-align: top;
-        padding-bottom:1em;
+        padding-bottom:.75em;
     }
 </style>
 <figure style="float: {{ .Get "float"}}">
-    <li class="image-box" style="width: {{.Get "width"}}; height: auto;">
+    <li class="imagebox" style="width: {{.Get "width"}}; height: auto;">
         <img src={{ .Get "src" }} width="{{ .Get "width"}}">
     </li>
     <figcaption style="width: {{ .Get "width"}}"> This page is boring without a picture, so here's me holding a bell pepper </figcaption>

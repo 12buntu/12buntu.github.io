@@ -10,10 +10,14 @@ body {
     line-height: 1.5;  
     margin: 0 auto;  
     font-family: "Fira Mono";
-  } 
+}
+main{
+  max-width: 50%;
+  margin: 0 auto;
+} 
     
 p {
-  font-size: small;
+  font-size: medium;
 }
 h1 {
   font-size:xx-large;
@@ -31,7 +35,7 @@ h1 {
 }
   
 .navbar{  
-  display: flex;  
+  display: flex;
   align-items: center;  
   justify-content: space-between;  
   height: 45px;  
@@ -55,6 +59,3 @@ a{
   text-decoration: underline;  
   font-weight: bold;  
 }  
-main{  
-  margin: 0 200px;  
- }  
