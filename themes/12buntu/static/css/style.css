@@ -66,11 +66,16 @@ h1 {
 }  
 .navbar__right{  
   display: flex;  
-}  
-a{  
-  margin-left: 8px;
-  text-decoration: none !important;  
-}  
+}    
+ a {
+  color: var(--accent-color);
+  text-decoration:none;
+}
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+}
+
 .navbar__right a{  
   text-decoration: none;  
   font-size: 14px;  
