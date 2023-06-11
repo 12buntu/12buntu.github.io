@@ -1,10 +1,12 @@
 <style>
+    
     figure { 
         /* To correctly align image, regardless of content height: */
         vertical-align: top;
         display: flexbox;
         /* To horizontally center images and caption */
         text-align: center;
+        float: {{ .Get "float"}}
     } 
     figure img {
         position: relative;
@@ -12,6 +14,8 @@
         left: 0;
         border: 6px solid var(--accent-color);
         box-shadow: 12px 12px var(--accent-color-2);    
+        width: {{ .Get "width"}}
+
     }
     figcaption{
         display:block;
@@ -20,15 +24,36 @@
         text-align: center;
     }
     .imagebox {
-        position: relative;
         color: transparent;
-        vertical-align: top;
         padding-bottom:.75em;
+        width: {{.Get "width"}}; 
+        height: auto;
+    }
+
+    /*  For mobile:   */
+    @media only screen and (max-width:650px) {
+        .figurebox {
+            display: flex;
+            justify-content: center;
+            align-content: center;  
+            padding: 0 
+        }
+        figure {
+            float: none;
+        }
+        figure img {
+            display:flex;
+            max-width: {{ .Get "width"}};
+            min-width: 10%;
+        }
+        
     }
 </style>
-<figure style="float: {{ .Get "float"}}">
-    <li class="imagebox" style="width: {{.Get "width"}}; height: auto;">
-        <img src={{ .Get "src" }} width="{{ .Get "width"}}">
-    </li>
-    <figcaption style="width: {{ .Get "width"}}"> This page is boring without a picture, so here's me holding a bell pepper </figcaption>
-</figure>
+<div class="figurebox">
+    <figure>
+        <li class="imagebox">
+            <img src={{ .Get "src" }}>
+        </li>
+        <figcaption style="width: {{ .Get "width"}}"> This page is boring without a picture, so here's me holding a bell pepper </figcaption>
+    </figure>
+</div>

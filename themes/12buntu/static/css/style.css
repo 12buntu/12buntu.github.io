@@ -11,9 +11,12 @@ body {
     margin: 0 auto;  
     font-family: "Fira Mono";
 }
-main{
-  max-width: 80ch;
+main  {
+  
+  min-width: 50vw;
+  max-width: 50em;
   margin: 0 auto;
+  padding: 30px;
 } 
     
 p {
