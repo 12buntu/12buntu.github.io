@@ -3,6 +3,7 @@
 }
 body {  
     background-color: var(--bg-color);
+    position: fixed;
     background-attachment: fixed;
     background-size: 40px 40px;
     background-image: radial-gradient(circle, var(--bg-color-dark) 2px, transparent 1px);
