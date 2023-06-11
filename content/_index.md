@@ -1,9 +1,11 @@
 # Hello World
-{{< image  src="Kyle-Lab.jpg" width="300px" float="inline-end">}}
-Kyle Hollars<b style="font-size: xx-small"> he/him</b><br>
-<a href="https://github.com/12buntu">Github: 12buntu</a><br>
-Discord: 12buntu#3583<br>
-
+{{< image src="Kyle-Lab.jpg" width="300px" float="inline-end">}}
+<div style="padding: 4px; border-style: solid; border-color: var(--accent-color); box-shadow: 4px 4px var(--accent-color-2);    
+ margin: 0 auto; display: inline-block">
+    Kyle Hollars<b style="font-size: xx-small"> he/him</b><br>
+    <a href="https://github.com/12buntu">Github: 12buntu</a><br>
+    Discord: 12buntu#3583<br>
+</div>
 {{</image>}}
 My name is Kyle Hollars, I am a graduate from Watauga High School and a student at NC State University. I plan on majoring in engineering--so far the plan is computer science but that is subject to change. This website is just a place to hold and organize some of my online projects, including Book N, a blog where I explore math and other subjects. I'll probably also include some other non-math programming projects here. 
 
