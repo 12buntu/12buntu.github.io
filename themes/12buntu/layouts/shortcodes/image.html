@@ -55,6 +55,9 @@
         <li class="imagebox">
             <img src={{ .Get "src" }}>
         </li>
-        <figcaption style="width: {{ .Get "width"}}"> This page is boring without a picture, so here's me holding a bell pepper </figcaption>
+        {{ if .Inner }}
+            <figcaption style="width: {{ .Get "width"}}"> {{ .Inner }}
+        </figcaption>
+        {{end}}
     </figure>
 </div>

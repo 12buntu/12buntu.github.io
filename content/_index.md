@@ -1,8 +1,12 @@
 # Hello World
-This is just a place for me to document and share my newfound fascination with mathematics. In the summer of 2022 at North Carolina’s Governor’s School West, I got to attend several math lectures. These lectures changed my perspective on mathematics. I had always been somewhat interested in math, but never enough to explore it in my free time. Math was a means to an end, nothing more. 
+{{< image  src="Kyle-Lab.jpg" width="300px" float="inline-end">}}
+Kyle Hollars<a style="font-size: xx-small">he/him</a><br>
+<a href="https://github.com/12buntu">Github: 12buntu</a><br>
+Discord: 12buntu#3583<br>
 
-{{< image src="kylepepper.jpg" width="300px" caption="This page is boring without a picture, so here's me holding a bell pepper" float="inline-end">}}
+{{</image>}}
+My name is Kyle Hollars, I am a graduate from Watauga High School and a student at NC State University. I plan on majoring in engineering--so far the plan is computer science but that is subject to change. This website is just a place to hold and organize some of my online projects, including Book N, a blog where I explore math and other subjects. I'll probably also include some other non-math programming projects here. 
 
-Attending those lectures helped me see the beauty in mathematics, and since then I have tried to teach myself some mathematical concepts in my free time. I haven’t had much free time to explore this interest, but I return to my notebook whenever I can. I have several notebooks filled with art, to-do lists, birthday cards, cool flowers, chemistry notes, and my math explorations. They are labelled as Books 0, 1, 2, and 3. As this is intended to be the highlights from these books, I’ve named this site Book N. There’s no particular audience for this site. It’s mostly for my own benefit, but I’ve chosen to leave it public so I can share this with friends. Also, I wanted to get better at html and and improve my web design skills. I’m putting projects in the “entries” section; I probably won’t update it too often but I hope to update it semi-regularly, if only to continue improving my web dev skills.
 
-Inspiration for this site theme drawn from https://github.com/panr/hugo-theme-terminal/tree/master
+
+Mostly, this website is an exercise in teaching myself web design skills. I have programmed with Java a lot for FTC Robotics, and have played with a few other languages, but I haven't done very much web design. I am using the [Hugo](https://gohugo.io) engine to create this site, but I have written everything on this site from scratch. I did draw some inspiration from the [Terminal](https://github.com/panr/hugo-theme-terminal) theme by Radek Kozieł, though. I would like to share this theme publicly some day, but for now it is very much in-development.
