@@ -12,12 +12,16 @@ body {
     font-family: "Fira Mono";
 }
 main  {
-  
   min-width: 50vw;
   max-width: 50em;
   margin: 0 auto;
   padding: 30px;
 } 
+.background {
+  background-color: #000000B0;
+  box-shadow: 12px 12px var(--accent-color-2);
+  padding: 2%
+}
     
 p {
   font-size: medium;
@@ -27,6 +31,8 @@ h1 {
   display: inline-block;
   padding: .25em .0em;
   background: var(--accent-color);
+  box-shadow: 12px 12px var(--accent-color-2);    
+
 }
 .content {  
   margin-bottom: 2rem;  
