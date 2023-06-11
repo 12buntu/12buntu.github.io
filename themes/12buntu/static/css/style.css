@@ -18,7 +18,7 @@ main  {
   padding: 30px;
 } 
 .background {
-  background-color: #000000B0;
+  background-color:#222121;
   box-shadow: 12px 12px var(--accent-color-2);
   padding: 2%
 }
