@@ -1,6 +1,6 @@
 # Hello World
 {{< image  src="Kyle-Lab.jpg" width="300px" float="inline-end">}}
-Kyle Hollars<a style="font-size: xx-small">he/him</a><br>
+Kyle Hollars<b style="font-size: xx-small"> he/him</b><br>
 <a href="https://github.com/12buntu">Github: 12buntu</a><br>
 Discord: 12buntu#3583<br>
 
