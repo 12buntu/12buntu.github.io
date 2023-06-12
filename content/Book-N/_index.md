@@ -1,9 +1,10 @@
 ---
 title: Book-N
-url: '/Book-N'
+kind: section
 --- 
-# ¡Hola Mundo! 
 
+# ¡Hola Mundo! 
+***
 This is just a place for me to document and share my newfound fascination with mathematics. In the summer of 2022 at North Carolina’s Governor’s School West, I got to attend several math lectures. These lectures changed my perspective on mathematics. I had always been somewhat interested in math, but never enough to explore it in my free time. Math was a means to an end, nothing more. 
 
 {{< image src="kylepepper.jpg" width="300px" float="inline-end">}} 
