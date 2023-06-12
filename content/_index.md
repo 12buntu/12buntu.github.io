@@ -1,4 +1,5 @@
 # Hello World
+***
 {{< image src="Kyle-Lab.jpg" width="300px" float="inline-end">}}
 <div style="padding: 4px; border-style: solid; border-color: var(--accent-color); box-shadow: 4px 4px var(--accent-color-2);    
  margin: 0 auto; display: inline-block">
