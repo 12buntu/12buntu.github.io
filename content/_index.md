@@ -1,3 +1,7 @@
+---
+title: home
+kind: single
+---
 # Hello World
 ***
 {{< image src="Kyle-Lab.jpg" width="300px" float="inline-end">}}

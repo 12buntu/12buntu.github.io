@@ -1,7 +1,8 @@
 .sticky {
     background-color: var(--bg-sticky);
     box-shadow: 12px 12px var(--accent-color-2);
-    padding: 2%
+    padding: 2%;
+    margin-bottom:32px;
 }
 
 @media only screen and (max-width:650px) {

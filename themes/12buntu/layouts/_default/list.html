@@ -1,5 +1,29 @@
-{{ define "main" }}  
-    <div class="sticky">
-        {{ .Content }}  
-    </div>
-{{ end }}  
+
+{{ define "main" }}
+    {{ .Content }}
+    
+    {{ range .Pages }}
+        <style>
+            .title {
+                color: var(--text-color);
+                background-color: var(--accent-color);
+                padding: 4px;
+                font-weight: bold;
+                font-size: x-large;
+                box-shadow: 5px 5px var(--accent-color-2);
+            }
+            .description {
+                padding: 0;
+                margin-top: 10px;
+            }
+        </style>
+        <div class="sticky">
+            <a class="title" href="{{ .Permalink }}">{{ .Title }} - {{ .Date.Format "01-02-2006" }}</a><br>
+            <div class="description">{{ .Param "description" }}</div>
+            <hr>
+            <em>{{ .Summary }}...</em>
+        </div class="sticky">
+    {{ end }}
+
+
+{{ end }}
