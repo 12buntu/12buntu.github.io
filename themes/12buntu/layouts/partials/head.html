@@ -1,6 +1,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
 <link rel="stylesheet" href="/css/colors.css" type="text/css" media="all" /> 
 <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" /> 
+
 {{ if .Site.Params.googlefonts }}
 <link rel="stylesheet" href="{{ .Site.Params.googlefonts }}" type="text/css" media="all" /> 
 {{ end }}
+
+{{/*  {{ $sass := resources.Get "sass/main.scss" }}
+{{ $style := $sass | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">  */}}

@@ -1,0 +1,33 @@
+* {
+  color: var(--text-color);
+  font-family: "Fira Mono";
+
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+p {
+  font-size: medium;
+}
+
+h1 {
+  font-size: xx-large;
+  display: inline-block;
+  padding: .25em .0em;
+  background: var(--accent-color);
+  box-shadow: 12px 12px var(--accent-color-2);
+}
+
+.highlight {
+  display: inline-block;
+  padding: .25em .9em;
+  background: var(--accent-color);
+}

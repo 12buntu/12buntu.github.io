@@ -1,0 +1,29 @@
+.navbar{  
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;  
+    height: 45px;  
+    background: var(--bg-color-dark);  
+    padding: 10px;  
+  }  
+  .navbar__right{  
+    display: flex;  
+  }    
+  .navbar__right a{  
+    text-decoration: none;  
+    font-size: 14px;  
+    margin-right: 18px;  
+    transition: all 100ms;  
+    padding: 4px;
+    background-color: var(--bg-color);
+    box-shadow: 2px 2px var(--accent-color)
+  }  
+  .navbar__right a:hover{
+    box-shadow: inset 0px 0dpx var(--accent-color);
+    font-weight: normal;
+  }
+  .navbar__right a:active{
+    box-shadow: inset 2px 2px var(--accent-color);
+    font-weight: normal;
+  }
+  
