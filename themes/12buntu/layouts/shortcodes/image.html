@@ -1,62 +1,67 @@
-<style>
-    figure { 
-        /* To correctly align image, regardless of content height: */
-        vertical-align: top;
-        display: flexbox;
-        /* To horizontally center images and caption */
-        text-align: center;
-        float: {{ .Get "float"}}
-    } 
-    figure img {
-        position: relative;
-        top: 0;
-        left: 0;
-        border: 6px solid var(--accent-color);
-        box-shadow: 12px 12px var(--accent-color-2);    
-        max-width: {{ .Get "width"}}
-
-    }
-    figcaption{
-        display:block;
-        font-family: "Fira Code";
-        font-size: small;
-        text-align: center;
-    }
-    .imagebox {
-        color: transparent;
-        padding-bottom:.75em;
-        width: {{.Get "width"}}; 
-        height: auto;
-    }
-
-    /*  For mobile:   */
-    @media only screen and (max-width:650px) {
-        .figurebox {
-            display: flex;
+<div id="image" style="{{.Get "style" | safeCSS }} float: {{.Get "float"}} | safeCSS">
+    <style>
+        figure { 
+            /* To correctly align image, regardless of content height: */
+            vertical-align: top;
+            display: flexbox;
+            /* To horizontally center images and caption */
+            text-align: center;
             justify-content: center;
-            align-content: center;  
-            padding: 0 ;
-            padding-right: 12px;
-        }
-        figure {
-            float: none;
-        }
+            float: {{ .Get "float"}}
+        } 
         figure img {
-            display:flex;
-            max-width: {{ .Get "width"}};
-            min-width: 10%;
+            position: relative;
+            top: 0;
+            left: 0;
+            border: 6px solid var(--accent-color);
+            box-shadow: 12px 12px var(--accent-color-2);    
+            max-width: {{ .Get "width"}}
+
         }
-        
-    }
-</style>
-<div class="figurebox">
-    <figure>
-        <li class="imagebox">
-            <img src={{ .Get "src" }}>
-        </li>
-        {{ if .Inner }}
-            <figcaption style="width: {{ .Get "width"}}"> {{ .Inner }}
-        </figcaption>
-        {{end}}
-    </figure>
+        figcaption{
+            display:block;
+            font-family: "Fira Code";
+            font-size: small;
+            text-align: center;
+        }
+        .imagebox {
+            color: transparent;
+            padding-bottom:.75em;
+            width: {{.Get "width"}}; 
+            height: auto;
+        }
+        .figurebox: {
+            float: {{ .Get "float"}}
+        }
+        /*  For mobile:   */
+        @media only screen and (max-width:650px) {
+            .figurebox {
+                display: flex;
+                justify-content: center;
+                align-content: center;  
+                padding: 0 ;
+                padding-right: 12px;
+            }
+            figure {
+                float: none;
+            }
+            figure img {
+                display:flex;
+                max-width: {{ .Get "width"}};
+                min-width: 10%;
+            }
+            
+        }
+    </style>
+    <div class="figurebox">
+        <figure>
+            <li class="imagebox">
+                <img src={{ .Get "src" }}>
+            </li>
+            {{ if .Inner }}
+                <figcaption style="width: {{ .Get "width"}}"> {{ .Inner }}
+            </figcaption>
+            {{end}}
+        </figure>
+    </div>
 </div>
