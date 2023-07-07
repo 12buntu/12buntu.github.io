@@ -18,11 +18,11 @@ This is the most recent problem that I've had fun with. My friend Aria had a pro
 
 I kicked this problem around in my head for a few days. The "correct" way to solve it was to use multivariable calculus--which I have not yet learned. Still, I felt like there was some way to understand this problem without calculus. I was focused mostly on the parts *not* present in "Aria's Sphere." The four caps left over after cutting the square out are the complement of the surface area of the entire sphere, whose volume can be known by \\( 4\pi r^2 \\). I felt like there should be *some* easily calculable relationship between the radius of a cap (a portion of a sphere) and its surface area. Where \\( r_{cap} = r_{sphere} \\), the surface area is equal to \\( 2\pi r^2 \\), because at that point the cap is a hemisphere, so the surface area will be half that of a full sphere.
 
-{{<div style="display: flex; justify-content: center">}}
-	{{<image src="AS-fourcaps.jpg" width="300px">}}
+{{<div style="display: grid;  grid-template-columns: 1fr 1fr; grid-wrap:wrap; 	 justify-content: center">}}
+	{{<image src="AS-fourcaps.jpg" width="200px">}}
 		The four caps, the compliment of the first shown surface
 	{{</image>}}
-	{{<image src="AS-topview.jpg" width="300px">}}
+	{{<image src="AS-topview.jpg" width="200px">}}
 		Top view of the four caps
 	{{</image>}}
 {{</div>}}
