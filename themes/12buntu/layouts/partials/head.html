@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="{{ .Site.Params.googlefonts }}" type="text/css" media="all" /> 
 {{ end }}
 
-{{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
+{{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
 
 {{/*  {{ $sass := resources.Get "sass/main.scss" }}
 {{ $style := $sass | resources.ToCSS }}
