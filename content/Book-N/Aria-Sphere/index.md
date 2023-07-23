@@ -48,7 +48,7 @@ This is the point at which I began making some logical leaps, and doing some gue
 
 ## The Solution 
 
-After guessing and checking several equations for SA, I realized that the table of proportions above followed the equation \\( \sin^2(\frac{\theta}{2}) \\). So, for a unit sphere, the surface area of a segment would be given by $ 4\pi \sin^2(\frac{\theta}{2}) $; for a general sphere, $$ 4\pi (\sin(\frac{\theta}{2})r)^2 $$. Plugging in each of the values in the table, this seemed to be the correct equation for finding the surface area of a portion of a sphere.
+After guessing and checking several equations for SA, I realized that the table of proportions above followed the equation \\( \sin^2(\frac{\theta}{2}) \\). So, for a unit sphere, the surface area of a segment would be given by $ 4\pi \sin^2(\frac{\theta}{2}) $; for a general sphere, $ 4\pi (\sin(\frac{\theta}{2})r)^2 $. Plugging in each of the values in the table, this seemed to be the correct equation for finding the surface area of a portion of a sphere.
 
 So now, after all this time, I could finally calculate the surface area of the "Aria Sphere":
 
