@@ -21,7 +21,7 @@ I kicked this problem around in my head for a few days. The "correct" way to sol
 {{<image src="AS-fourcaps.jpg" width="205px">}}
 	The four caps, the compliment of the first shown surface
 {{</image>}}
-{{<image src="AS-topview.jpg" width="205x">}}
+{{<image src="AS-topview.jpg" width="205xpx>}}
 	Top view of the four caps
 {{</image>}}
  
