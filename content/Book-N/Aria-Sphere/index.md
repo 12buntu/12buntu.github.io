@@ -22,7 +22,7 @@ I kicked this problem around in my head for a few days. The "correct" way to sol
 	The four caps, the compliment of the first shown surface
 {{</image>}}
 
-{{<image src="AS-topview.jpg" width="205xpx>}}
+{{<image src="AS-topview.jpg" width="205px">}}
 	Top view of the four caps
 {{</image>}}
  
