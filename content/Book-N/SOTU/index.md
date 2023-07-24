@@ -21,7 +21,7 @@ This is important to note because when I refer to the shape of the universe, I a
 # A Two Dimensional Universe
 Before we explore what the shape of a three dimensional universe might look like, it is useful to think about possible shapes of a two dimensional universe. Let's use the analogy of a game of Pacman.
  
-  <img alt-text="An animation of a pixel-art pacman game on a cylinderical topology." src="/Book-N/assets/img/SOTU-Cylinder.gif">
+<img alt-text="An animation of a pixel-art pacman game on a cylinderical topology." src="SOTU-Cylinder.gif">
 
 The important thing to note here is how Pacman seems to teleport across the screen upon reaching the edge. You could think of this as teleportation through programming magic, but for the sake of this exercise it is better to think of those two locations as physically joined. To physically join these two locations, you must bend the entire screen to form a cylinder.
 
