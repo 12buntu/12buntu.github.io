@@ -8,7 +8,7 @@ description: my take on a presentation that changed my life.
 
 Today I tried to recreate for my chemistry class a presentation that changed my life. At Governor's School last year one of the math teachers gave an optional lectured titled *Shape of the Universe*. Although this wasn't the only math lecture I attended at Governor's School, and I probably wouldn't have said it was my favorite at the time, it is the one that has stuck with me the most. The original *Shape of the Universe* presentation, along with the other math presentations at Governor's School, really changed my perspective on math. I began to view math as a collection of concepts to be understood, rather than a set of problems to be solved. This presentation in particular helped shift my view, as it contained almost no numbers. It made me realize that numbers were just one way to explore mathematical concepts. Numbers are a tool to understand math, not the purpose of math itself. All that being said, this is my textual adaptation of the presentation I gave today:
 
-# What is topology?
+## What is topology?
 
 Topology is a bit difficult to define with words; the definition given by a quick Google search is "*the study of geometric properties and spatial relations unaffected by the continuous change of shape or size of figures.*". This definition is a bit difficult to understand, so I find it easier to use an image to explain.
 
@@ -20,7 +20,7 @@ Topology is a bit difficult to define with words; the definition given by a quic
 The top row of images are all topologically the same because they contain no holes. Any one of those could be stretched and misshappen to form any of the others. The shapes in the second row, although they are visually similar, are not topologically the same. One contains a hole, while the other is simply a circle bent into a strange shape. This means they are topologically different, as you could not create the donut shape from the other shape without cutting or glueing faces.
 This is important to note because when I refer to the shape of the universe, I am really referring to its topology. Some of the models I'll be showing aren't uniformly sized. This isn't to imply that one part of the universe would be larger than another; we are only concerned with the *connectedness* of the theoretical spaces. This will make more sense after we look at some visuals.
 
-# A Two Dimensional Universe
+## A Two Dimensional Universe
 Before we explore what the shape of a three dimensional universe might look like, it is useful to think about possible shapes of a two dimensional universe. Let's use the analogy of a game of Pacman.
  
 <img alt-text="An animation of a pixel-art pacman game on a cylinderical topology." src="SOTU-Cylinder.gif">
@@ -43,7 +43,7 @@ This is essentially the same operation as before, just repeated on the other sid
 
 One may think that a spherical universe may yield the same results. If I'm being honest, I don't yet fully understand why it *doesn't*, but I can say that for the rest of this post, it makes a lot more sense to think of this as a torus, rather than a sphere.
 
-## Something a little more Complicated
+### Something a little more Complicated
 
 Now that we understand the basic ideas of bending 2D topologies, we're going to try something a little more complex. We're going to imagine Pacman's universe as a Mobius Strip.
 A Mobius strip is a simple shape with a lot of interesting properties, but today we're going to look at how the topology of a mobius strip would be perceived by a 2D creature.
@@ -70,7 +70,7 @@ So, what would Pacman's universe look like if it had the topology of a Klein bot
  <img alt-text="An animation of a pixel-art pacman game on a klein bottle topology." src="/Book-N/assets/img/SOTU-Klein.gif">
 
 
-# A Three Dimensional Universe
+## A Three Dimensional Universe
 Now that we've explored some possible topologies of a 2D universe, it is time to look at possible three dimensional universes. There are *many* possible topologies of a three dimensional universe that we will not explore (as well as many 2D topologies that we did not explore), but I will show the 3D allegories to the torus and Klein bottle 2D topologies we looked at above. Unfortunately, my art skills are not good enough to create a pixel-art 3 dimensional Pacman universe, but I have drawn a few diagrams. 
 
  <img src="/Book-N/assets/img/SOTU-3DTours-diagram.jpeg">
@@ -81,7 +81,7 @@ The above image show the 3D version of our 2D torus topology. This is what our u
 
 Each figure is holding a sword to make it clear when one is mirrored. Going through any of the side walls leads you to exit through the opposite side, unmirrored, however the "ceiling" and "floor" are mirrored, the red figure is mirrored as it passes through the floor, and reenters the room in the opposite corner of the cube. These two sides are those connected by the equivalent of a mobius strip. Of course, the figure is not actually passing through a floor or reentering through the ceiling; from the perspective of the figure, the room never ends, it is simply connected to itself. 
 
-# Conclusion, futher reading, and some fun resources.
+## Conclusion, futher reading, and some fun resources.
 There are many possible topologies, perhaps infinite possible topologies, of our 3D universe. In my presentation, I only explained a few possible topologies because it had to be short, but there are so many I did not explore. I highly recommend playing with a piece of software called *Curved Spaces*[^2]. It is available on iOS, macOS, and Windows. It also runs on Linux with Wine, but Android seems to be entirely unsupported. 
 
 I also read a few pages from the textbook *The Shape of Space*[^3], which was helpful. I didn't dive too deeply into the concepts explored in that book, but it was useful to look at some of the diagrams.
