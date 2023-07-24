@@ -12,7 +12,9 @@ Today I tried to recreate for my chemistry class a presentation that changed my 
 
 Topology is a bit difficult to define with words; the definition given by a quick Google search is "*the study of geometric properties and spatial relations unaffected by the continuous change of shape or size of figures.*". This definition is a bit difficult to understand, so I find it easier to use an image to explain.
 
- <img alt-text="An example of topologies of several 2D shapes. The top row contains 4 topologically identical shapes. The middle row contains two similar but topologically unequal shapes. The bottom contains two topologically equal shapes" src="/Book-N/assets/img/SOTU-topology.jpeg">
+ <img alt-text="An example of topologies of several 2D shapes. The top row contains 4 topologically identical shapes. The middle row contains two similar but topologically unequal shapes. The bottom contains two topologically equal shapes" src="SOTU-topology.jpeg">
+ 
+
  Caption: Objects are topologically the same if you can stretch, compress, or bend one shape to produce the other. They are not the same if you have to cut, glue, create a hole, or close a hole.ˀ
 
 The top row of images are all topologically the same because they contain no holes. Any one of those could be stretched and misshappen to form any of the others. The shapes in the second row, although they are visually similar, are not topologically the same. One contains a hole, while the other is simply a circle bent into a strange shape. This means they are topologically different, as you could not create the donut shape from the other shape without cutting or glueing faces.
