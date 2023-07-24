@@ -40,7 +40,7 @@ I then began trying to find an equation for \\( {SA} \\) where:
 
  when \\(\theta = 0 \| 2\pi \\),  \\( SA = 0 \\);
 
- when \\( \theta = \frac{\pi}{2} \| \frac{3\pi}{2} \\), \\( SA = 2\pi r^2 \\); 
+ when \\( \theta = \frac{\pi}{2} \| \frac{3\pi}{2} \\), \\( SA = 2\	pi r^2 \\); 
 
  and when \\( \theta = \pi \\),  \\( SA = 4\pi r^2 \\)
 
