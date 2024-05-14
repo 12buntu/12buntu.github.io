@@ -1,16 +1,30 @@
- <style>
-    .figurebox{
+<style>
+     .figurebox{
         float: {{.Get "float" | safeCSS}}
+    } 
+    .left{
+        float: left
+    }
+    .right{
+        float: right
+    }
+    .center{
+        float: center
+    }
+    .break{
+        float:none;
+        display:flex;
+        justify-content: center;
     }
     @media only screen and (max-width:650px) {
-        .figurebox{
+        .figurebox .left .right .center .break{
             float:none;
             display:flex;
             justify-content: center;
         }
     }   
- </style>   
-<div class="figurebox" style="{{.Get "style" | safeCSS }}">
+</style>   
+<div class="{{.Get "float" | safeCSS}}" style="{{.Get "style" | safeCSS }}">
     <style>  
         figure {
             vertical-align: top;

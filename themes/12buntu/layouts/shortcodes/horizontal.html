@@ -1,0 +1,23 @@
+<style>
+    .outer{
+        float:none;
+        display:block;
+        justify-content: center;
+    }
+    .inner{
+        padding-top: 5px;
+        float:center;
+        display:flex;
+        justify-content: space-around;
+    }
+    @media only screen and (max-width:650px) {
+        .outer{
+            float:none;
+            display:flex;
+            justify-content: center;
+        }
+    }   
+</style>   
+<div class="outer" style="{{.Get "style" | safeCSS }}">
+    <div class="inner">{{.Inner}}</div>
+</div>
