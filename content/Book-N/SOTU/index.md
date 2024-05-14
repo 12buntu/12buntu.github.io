@@ -12,10 +12,8 @@ Today I tried to recreate for my chemistry class a presentation that changed my 
 
 Topology is a bit difficult to define with words; the definition given by a quick Google search is "*the study of geometric properties and spatial relations unaffected by the continuous change of shape or size of figures.*". This definition is a bit difficult to understand, so I find it easier to use an image to explain.
 
- {{<image alt-text="An example of topologies of several 2D shapes. The top row contains 4 topologically identical shapes. The middle row contains two similar but topologically unequal shapes. The bottom contains two topologically equal shapes" src="SOTU-topology.jpeg">}}
- 
-
- Caption: Objects are topologically the same if you can stretch, compress, or bend one shape to produce the other. They are not the same if you have to cut, glue, create a hole, or close a hole. 
+ {{<image alt-text="An example of topologies of several 2D shapes. The top row contains 4 topologically identical shapes. The middle row contains two similar but topologically unequal shapes. The bottom contains two topologically equal shapes" src="SOTU-topology.jpeg" width="256px" float="right">}}
+ Objects are topologically the same if you can stretch, compress, or bend one shape to produce the other. They are not the same if you have to cut, glue, create a hole, or close a hole.
  {{</image>}}
 
 The top row of images are all topologically the same because they contain no holes. Any one of those could be stretched and misshappen to form any of the others. The shapes in the second row, although they are visually similar, are not topologically the same. One contains a hole, while the other is simply a circle bent into a strange shape. This means they are topologically different, as you could not create the donut shape from the other shape without cutting or glueing faces.
@@ -24,14 +22,14 @@ This is important to note because when I refer to the shape of the universe, I a
 ## A Two Dimensional Universe
 Before we explore what the shape of a three dimensional universe might look like, it is useful to think about possible shapes of a two dimensional universe. Let's use the analogy of a game of Pacman.
  
-<img alt-text="An animation of a pixel-art pacman game on a cylinderical topology." src="SOTU-Cylinder.gif">
+{{<image alt-text="An animation of a pixel-art pacman game on a cylinderical topology." src="SOTU-Cylinder.gif" width="256px">}}{{</image>}}
 
 The important thing to note here is how Pacman seems to teleport across the screen upon reaching the edge. You could think of this as teleportation through programming magic, but for the sake of this exercise it is better to think of those two locations as physically joined. To physically join these two locations, you must bend the entire screen to form a cylinder.
 
- <img alt-text="A 3D render of a game of Pacman on the surface of a cylinder" src="/Book-N/assets/img/SOTU-3DCylinder.jpeg">
- Caption: The above image, as well as all the other 3D renderings of the Pacman world, come from Lev Kruglyak's blog,[^1].
+ {{<image alt-text="A 3D render of a game of Pacman on the surface of a cylinder" src="SOTU-3DCylinder.jpeg" width="256px">}}
+{{</image>}}
 
-This shows that Pacman does not simply teleport across the screen, but is simply moving around the outside of a cylinder. Of course, Pacman has no understanding of moving through a 3rd dimension. Just as you probably can't imagine moving through a fourth spacial dimension, Pacman can't understand that he exists on the surface of a 3D object. 
+This image--taken from Lev Kruglyak's blog[^1]--shows that Pacman does not simply teleport across the screen, but is simply moving around the outside of a cylinder. Of course, Pacman has no understanding of moving through a 3rd dimension. Just as you probably can't imagine moving through a fourth spacial dimension, Pacman can't understand that he exists on the surface of a 3D object. 
 
 Although the cylinder is certainly a more interesting shape than a flat plane, it isn't the *most* interesting possible topology of the Pacman universe. It only connects in one direction, leaving a barrier at the top and bottom of the screen. If we connect those two sides, we end up with a space that looks a bit like this:
 

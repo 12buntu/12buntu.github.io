@@ -36,7 +36,7 @@
     <figure style="max-width: {{.Get "width"}};">
         <img src={{ .Get "src" }} style="max-width: {{.Get "width"}};">
         {{ if .Inner }}
-        <figcaption> {{ .Inner }}
+        <figcaption > <small><i>{{ .Inner }}</i></small>
         </figcaption>
         {{end}}
     </figure>

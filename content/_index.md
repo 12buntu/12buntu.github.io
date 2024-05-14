@@ -12,7 +12,7 @@ kind: single
     Discord: 12buntu#3583<br>
 </div>
 {{</image>}}
-My name is Kyle Hollars, I am a student studying Materials Science and Engineering at NC State University. This website is just a place to hold and organize some of my projects, including my Senior Portfolio Project for the University Honors Program.
+My name is Kyle Hollars, I am a student studying Materials Science and Engineering at NC State University. This website is just a place to hold and organize some of my projects, including my Senior Portfolio Project for the University Honors Program, and a math communication project called "Book N" that I began working on in my senior year of high school.
 
 
 
