@@ -56,10 +56,9 @@ Using the Pacman metaphor, each time Pacman goes through one wall of the game, h
   {{<image alt-text="An animation of a pixel-art pacman spinning in a circle." src="SOTU-transform.gif" width="256px">}}
   Pacman demonstrating all possible transformations without moving through a third dimension.
   {{</image>}}
-  {{<image alt-text="An animation of a pixel-art pacman game on a mobius strip topology." src="SOTU-Mobius.gif" width="256px" float="right">}}
+  {{<image alt-text="An animation of a pixel-art pacman game on a mobius strip topology." src="SOTU-Mobius.gif" width="256px" float="">}}
   Pacman traveling across a Mobius strip.
   {{</image>}}
-
 {{</horizontal>}}
 
 
