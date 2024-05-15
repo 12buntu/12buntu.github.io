@@ -18,6 +18,7 @@ This is the most recent problem that I've had fun with. My friend Aria had a pro
 
 I kicked this problem around in my head for a few days. The "correct" way to solve it was to use multivariable calculus--which I have not yet learned. Still, I felt like there was some way to understand this problem without calculus. I was focused mostly on the parts *not* present in "Aria's Sphere." The four caps left over after cutting the square out are the complement of the surface area of the entire sphere, whose volume can be known by \\( 4\pi r^2 \\). I felt like there should be *some* easily calculable relationship between the radius of a cap (a portion of a sphere) and its surface area. Where \\( r_{cap} = r_{sphere} \\), the surface area is equal to \\( 2\pi r^2 \\), because at that point the cap is a hemisphere, so the surface area will be half that of a full sphere.
 
+{{<horizontal>}}
 {{<image src="AS-fourcaps.jpg" width="205px">}}
 	The four caps, the compliment of the first shown surface
 {{</image>}}
@@ -25,22 +26,67 @@ I kicked this problem around in my head for a few days. The "correct" way to sol
 {{<image src="AS-topview.jpg" width="205px">}}
 	Top view of the four caps
 {{</image>}}
+{{</horizontal>}}
  
 I didn't have time to work on this for a while, but a recent camping trip gave me some time to think. The rest of the group left to get more water and access flushable toilets, but I was ready to have some alone-time. My friend and I stayed behind and I was able to spend some distraction-free time with my notebook. I drew out a top view of the complement of the Aria-sphere (4 caps of equal size, arranged so that there is a square hole in the middle). There I drew a diagram, and began to think about the relationship between arc length and angle. Of course, angle is defined by the arc length divided by the radius, or \\( \theta = \frac{AL}{r} \\). Thus, \\( {AL} = \theta{r} \\). Thinking about this relationship made me think about how it could be generalized to a 3D circle (a sphere). Rather than trying to find the surface area of the caps based on their maximum radius, perhaps I could find the surface area based on the angle at which the plane cuts through the sphere. I drew a quick diagram of a top view of the sphere, and imagined the following animation:
 
-<p align="center">
-<iframe src="https://www.desmos.com/calculator/spxeailzov?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
-</p>
+{{<div>}}
+	<p align="center">
+		<iframe src="https://www.desmos.com/calculator/spxeailzov?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+	</p>
+{{</div>}}
 
-<img src="/Book-N/assets/img/AS-table.jpg" style="width:150px;float:right">
-The plane remains parallel to the YZ-plane, and always intersects the XY polar point \\((1,\theta))\\. The movement in the animation is defined by the constant increase of  \\( \theta \\). Imagining this segment of a sphere, growing and shrinking as $$ \theta $$ increased infinitely, I realized that the relationship between \\( \theta \\) and \\( SA \\) must be sinusoidal. The surface area of the cap I was looking for is defined by \\( f(\frac{\pi}{4}) \\), where \\( f(\theta) \\) is the wave function that returns the surface area of the segment of that sphere. That is obviously not easily intuited visually, but there are other values of \\( \theta \\) where the surface area is easily intuited. I constructed a table to show the relationship between the angle \\( \theta \\) and the **proportion** of the sphere's surface area remaining. 
-<br style="clear:both">
+<!-- {{<image src="AS-table.jpg" float="right" width="150px">}}{{</image>}} -->
+
+{{<over-sticky float="right">}}
+	<style>
+		tbody:before {
+		content:"<hr>";
+		display:block;
+		line-height:10px;
+	    text-indent:-99999px;
+		}
+	</style>
+	<table>
+		<thead>
+			<tr>
+			<th>\( \theta \)</th>
+			<th>\( f(\theta) \)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			<td>\( 0 \)</td>
+			<td>\( 0 \)</td>
+			</tr>
+			<tr>
+			<td>\( \frac{\pi}{2} \)</td>
+			<td>\( \frac{1}{2} \)</td>
+			</tr>
+			<tr>
+			<td>\( \pi \)</td>
+			<td>\( 1 \)</td>
+			</tr>
+			<tr>
+			<td>\( \frac{3\pi}{2} \)</td>
+			<td>\( \frac{1}{2} \)</td>
+			</tr>
+			<tr>
+			<td>\( 2\pi \)</td>
+			<td>\( 0 \)</td>
+			</tr>
+		</tbody>
+	</table>
+{{</over-sticky>}}
+The plane remains parallel to the YZ-plane, and always intersects the XY polar point  \\( (1,\theta) \\) The movement in the animation is defined by the constant increase of  \\( \theta \\). Imagining this segment of a sphere, growing and shrinking as \\( \theta \\) increased infinitely, I realized that the relationship between \\( \theta \\) and \\( SA \\) must be sinusoidal. The surface area of the cap I was looking for is defined by \\( f(\frac{\pi}{4}) \\), where \\( f(\theta) \\) is the wave function that returns the surface area of the segment of that sphere. That is obviously not easily intuited visually, but there are other values of \\( \theta \\) where the surface area is easily intuited. I constructed a table to show the relationship between the angle \\( \theta \\) and the **proportion** of the sphere's surface area remaining. 
+
+{{<div>}}<br style="clear:both">{{</div>}}
 
 I then began trying to find an equation for \\( {SA} \\) where:
 
- when \\(\theta = 0 \| 2\pi \\),  \\( SA = 0 \\);
+ when \\(\theta = 0 \\ or \ 2\pi \\),  \\( SA = 0 \\);
 
- when \\( \theta = \frac{\pi}{2} \| \frac{3\pi}{2} \\), \\( SA = 2\	pi r^2 \\); 
+ when \\( \theta = \frac{\pi}{2} \\ or \ \frac{3\pi}{2} \\), \\( SA = 2\	\pi r^2 \\); 
 
  and when \\( \theta = \pi \\),  \\( SA = 4\pi r^2 \\)
 

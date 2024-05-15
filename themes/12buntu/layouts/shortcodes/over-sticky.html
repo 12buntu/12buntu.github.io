@@ -1,0 +1,57 @@
+<style>
+     .figurebox{
+        float: {{.Get "float" | safeCSS}}
+    } 
+    .left{
+        float: left
+    }
+    .right{
+        float: right
+    }
+    .center{
+        float: center
+    }
+    .break{
+        float:none;
+        display:flex;
+        justify-content: center;
+    }
+    @media only screen and (max-width:650px) {
+        .figurebox .left .right .center .break{
+            float:none;
+            display:flex;
+            justify-content: center;
+        }
+    }   
+</style>   
+<div class="{{.Get "float" | safeCSS}}" style="{{.Get "style" | safeCSS }}">
+    <style>  
+        figure {
+            vertical-align: top;
+            display: inline-block;
+            /* To horizontally center images and caption */
+            text-align: center;
+        }
+
+        .innerbox {
+            border: 6px solid var(--accent-color);
+            box-shadow: 12px 12px var(--accent-color-2);
+        }
+        figcaption{
+            padding-top: .75em;
+            display: block;
+        }
+
+        /*  For mobile:   */
+        @media only screen and (max-width:650px) {
+
+        }   
+    </style>
+    <figure style="max-width: {{.Get "width"}};">
+        <div class="innerbox">{{ .Inner }}</div>
+        {{ if .Get "caption"}}
+        <figcaption > <small><i>{{ .Get "caption" }}</i></small>
+        </figcaption>
+        {{end}}
+    </figure>
+</div>

@@ -1,5 +1,5 @@
 <style>
-     .figurebox{
+    .figurebox{
         float: {{.Get "float" | safeCSS}}
     } 
     .left{
@@ -44,11 +44,16 @@
 
         /*  For mobile:   */
         @media only screen and (max-width:650px) {
-
+            img {
+                width: 100%
+            }
+            figure {
+                width: 100%
+            }
         }   
     </style>
-    <figure style="max-width: {{.Get "width"}};">
-        <img src={{ .Get "src" }} style="max-width: {{.Get "width"}};">
+    <figure style="width: {{.Get "width"}};">
+        <img src={{ .Get "src" }} style="width: {{.Get "width"}};">
         {{ if .Inner }}
         <figcaption > <small><i>{{ .Inner }}</i></small>
         </figcaption>
