@@ -8,6 +8,9 @@
     .center{
         float: center
     }
+    .inline-end{
+        float: inline-end;
+    }
     .break{
         float:none;
         display:flex;
@@ -21,7 +24,7 @@
         }
     }   
 </style>   
-<div class="{{.Get "float" | safeCSS}}" style="{{.Get "style" | safeCSS }}">
+<div class="{{.Get "float" | safeCSS}}" style= "{{.Get "style" | safeCSS }}">
     <style>  
         figure {
             vertical-align: top;
